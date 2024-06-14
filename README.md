@@ -52,6 +52,14 @@ end)
 Tab:Label("Label")
 ```
 
+# Creating Sliders:
+
+```
+Tab:Slider("Slider",0,5,10,function(t)
+      
+ end)
+```
+
 # Destroy The Library:
 ```
 game.CoreGui["Library"]:Destroy()
