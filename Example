@@ -1,0 +1,21 @@
+local VLib = loadstring(game:HttpGet("https://pastebin.com/raw/Mb49kKTP"))()
+
+MAINTTL = "Title" 
+
+local win = VLib:Window("Subtitle", Color3.fromRGB(196, 40, 28))
+
+local Tab = win:Tab("Tab")
+
+Tab:Button("Button",function()
+
+end)
+
+Tab:Toggle("Toggle",function(t)
+
+end)
+
+Tab:Dropdown("Dropdown",{"Dropdown1", "Dropdown2", "Dropdown3", "Dropdown4", "Dropdown4"},function(SelectedOption)
+
+end)
+
+Tab:Label("Label")
